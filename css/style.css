@@ -480,10 +480,23 @@
 			width: 100%;
 		}
 
-			.image.fit img {
-				display: block;
-				width: 100%;
-			}
+		.image.fit img {
+			display: block;
+			width: 100%;
+		}
+
+
+	.profile {
+		opacity: 1;
+		filter: alpha(opacity=100); /* For IE8 and earlier */
+	}
+	
+	.profile:hover {
+		opacity: 0.5;
+		filter: alpha(opacity=50); /* For IE8 and earlier */
+	}
+	
+
 
 /* List */
 
