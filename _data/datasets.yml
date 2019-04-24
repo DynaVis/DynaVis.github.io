@@ -1,0 +1,22 @@
+
+- name: "MPI Dynamic FAUST"
+  author: "Max Planck Institute for Intelligent Systems"
+  url: "http://dfaust.is.tue.mpg.de/"
+  image: "/images/datasets/mpi_dfaust.png"
+
+- name: "4D Repository"
+  author: "Inria Grenoble - Rhône-Alpes"
+  url: "http://4drepository.inrialpes.fr/"
+  image: "/images/datasets/inria_4drep.png"
+
+- name: "CVSSP 3D"
+  author: "Centre for Vision, Speech and Signal Processing"
+  url: "https://cvssp.org/data/cvssp3d/"
+  image: "/images/datasets/cvssp3d.png"
+
+- name: "Dressed Humans"
+  author: "Inria Grenoble - Rhône-Alpes"
+  url: "http://dressedhuman.gforge.inria.fr/"
+  image: "/images/datasets/inria_dressed_humans.png"
+
+

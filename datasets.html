@@ -1,0 +1,42 @@
+---
+layout: default
+title: Datasets
+---
+
+<!-- Main -->
+<article id="main">
+
+    <header class="special container">
+        <h2><strong>Datasets</strong></h2>
+    </header>
+    
+   <!-- Three -->
+    <section class="wrapper style3 container special">
+            
+        {% assign datasets = site.data.datasets| sort: "name" %}
+        {% for dataset in datasets %}
+            <a href="{{dataset.url}}" target="_blank">
+                <div class="row thumbnail">
+                    <div class="4u">
+                        <section>
+                            <img class="image-thumbnail" src="{{dataset.image}}" alt="" />
+                        </section>
+                    </div>
+                    <div class="6u">
+                        <section>
+                            <header>
+                                <h4 style="color: black"><strong>{{dataset.name}}</strong></h4>
+                                <p style="color: black">{{dataset.author}}</p>
+                            </header>
+                        </section>
+                    </div>
+                </div>
+            </a>
+            <hr>
+            <br>
+        {% endfor %}
+
+
+    </section>
+        
+</article>

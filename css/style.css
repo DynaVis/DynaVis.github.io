@@ -124,8 +124,8 @@
 	}
 
 		header.special:before, header.special:after {
-			border-bottom: solid 1.5px;
-			border-top: solid 1.5px;
+			/*border-bottom: solid 1.5px;
+			border-top: solid 1.5px;*/
 			content: '';
 			height: 7px;
 			opacity: 0.1;
@@ -247,7 +247,7 @@
 	}
 
 		.image:before {
-			background: url("/images/overlay.png");
+			/*background: url("/images/overlay.png");*/
 			content: '';
 			height: 100%;
 			left: 0;
@@ -279,8 +279,16 @@
         width: 95%;
    }
 
+    .thumbnail{
+    
+    }
+
+    .thumbnail:hover{
+        background-color: #EEE;
+    }
+
    .image-thumbnail{
-           width: 95%;
+           width: 90%;
    }
 
 /* Icon */
@@ -581,7 +589,7 @@
 
 		.wrapper.style2 {
 			background-color: #83d3c9;
-			background-image: url("/images/light-bl.svg"), url("/images/light-br.svg");
+			/*background-image: url("/images/light-bl.svg"), url("/images/light-br.svg");*/
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -880,7 +888,7 @@
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		/*background-image: url("/images/dark-tl.svg"), url("/images/dark-tr.svg"), url("/images/dark-bl.svg"), url(/"images/dark-br.svg");*/
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
