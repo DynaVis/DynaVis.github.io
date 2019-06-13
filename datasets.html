@@ -10,8 +10,10 @@ title: Datasets
         <h2><strong>Datasets</strong></h2>
     </header>
     
+    
    <!-- Three -->
     <section class="wrapper style3 container special">
+    
             
         {% assign datasets = site.data.datasets| sort: "name" %}
         {% for dataset in datasets %}
@@ -26,7 +28,8 @@ title: Datasets
                         <section>
                             <header>
                                 <h4 style="color: black"><strong>{{dataset.name}}</strong></h4>
-                                <p style="color: black">{{dataset.author}}</p>
+                                <p style="color: black">{{dataset.author}}<br/>{{dataset.organisation}}</p>
+                                
                             </header>
                         </section>
                     </div>
@@ -36,7 +39,10 @@ title: Datasets
             <br>
         {% endfor %}
 
-
+    </section>
+     
+    <section class="wrapper style3 container special">
+		<p> To add datasets to this page, please email <a href="mailto:m.volino@surrey.ac.uk?subject=Dynavis Datasets&body=Name;Author;Organisation;URL">m.volino@surrey.ac.uk</a></p>    
     </section>
         
 </article>
