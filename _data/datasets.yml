@@ -4,15 +4,18 @@
   url: "http://dfaust.is.tue.mpg.de/"
   image: "/images/datasets/mpi_dfaust.png"
 
+
 - name: "4D Repository"
   author: "Inria Grenoble - Rhône-Alpes"
   url: "http://4drepository.inrialpes.fr/"
   image: "/images/datasets/inria_4drep.png"
 
+
 - name: "CVSSP 3D"
   author: "Centre for Vision, Speech and Signal Processing"
   url: "https://cvssp.org/data/cvssp3d/"
   image: "/images/datasets/cvssp3d.png"
+
 
 - name: "Dressed Humans"
   author: "Inria Grenoble - Rhône-Alpes"
@@ -20,3 +23,19 @@
   image: "/images/datasets/inria_dressed_humans.png"
 
 
+- name: "AVA Multi-View Dataset for Gait Recognition"
+  author: "University of Cordoba"
+  url: "http://www.uco.es/grupos/ava/node/41"
+  image: "/images/datasets/avamvg.png"
+
+
+- name: "Articulated Mesh Animation from Multi-view Silhouettes"
+  author: "Daniel Vlasic, Ilya Baran, Wojciech Matusik, Jovan Popović"
+  url: "http://people.csail.mit.edu/drdaniel/mesh_animation/"
+  image: "/images/datasets/amamvs.png"
+
+
+- name: "Deformable Surface Reconstruction"
+  author: "EPFL: Computer Vision Laboratory"
+  url: "https://cvlab.epfl.ch/data/data-dsr-index-php/"
+  image: "/images/datasets/epfl_dsr.png"
