@@ -1,5 +1,5 @@
 <!-- Banner -->		
-<section id="banner">
+<section id="banner" {% if page.banner %}style="background-image: url({{ page.banner }})"{% endif %}>
 
     <!--
         ".inner" is set up as an inline-block so it automatically expands
@@ -7,15 +7,17 @@
         automatically wrap lines, so be sure to use line breaks where
         appropriate (<br />).
     -->
+    
+   
     <div class="inner">
         <header>
             <h2>DynaVis</h2>
         </header>
-        <p>@CVPR 2019, Long Beach,CA
+        <p>{{ page.title}}
         <br />
-        Monday 17 June 2019
+        {{ page.date }}
         <br />
-        Hyatt Regency Ballroom D
+        {{ page.location }}
         <br />
         <footer>
             <ul class="buttons vertical">
