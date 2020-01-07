@@ -821,9 +821,8 @@
 	@keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 
 	#banner {
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-color: #645862;
-		/*background-image: url("/images/2019/banner.jpg");*/
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
