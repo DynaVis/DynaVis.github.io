@@ -47,11 +47,38 @@
   url: "https://cvlab.epfl.ch/data/data-dsr-index-php/"
   image: "/images/datasets/epfl_dsr.png"
 
+
 - name: "Hybrid modelling of non-rigid scenes from RGBD cameras"
   author: "Charles Malleson, Jean-Yves Guillemaut, and Adrian Hilton"
   organisation: "Centre for Vision, Speech and Signal Processing"
   url: "https://cvssp.org/projects/4d/dynamic_rgbd_modelling/"
   image: "/images/datasets/rgbd_hybrid_modelling.png"
   
+    
+- name: "Learning from Synthetic Humans"
+  author: "Gül Varol, Javier Romero, Xavier Martin, Naureen Mahmood, Michael J. Black, Ivan Laptev, Cordelia Schmid"
+  organisation: "Inria, Body Labs and Max Planck Institute for Intelligent Systems" 
+  url: "https://www.di.ens.fr/willow/research/surreal/data/"
+  image: "/images/datasets/surreal.png"  
   
+  
+- name: "DeepHuman: 3D Human Reconstruction from a Single Image"
+  author: "Zerong Zheng, Tao Yu, Yixuan Wei, Qionghai Dai, Yebin Liu"
+  organisation: "Tsinghua University and Beihang University" 
+  url: "http://www.liuyebin.com/deephuman/deephuman.html"
+  image: "/images/datasets/deephuman.jpg"    
+  
+  
+- name: "3DPeople: Modeling the Geometry of Dressed Humans"
+  author: "Albert Pumarola, Jordi Sanchez, Gary P. T. Choi, Alberto Sanfeliu, Francesc Moreno-Noguer"
+  organisation: "CSIC-UPC and Harvard University" 
+  url: "https://www.albertpumarola.com/research/3DPeople/index.html"
+  image: "/images/datasets/3dpeople.png"   
+  
+  
+- name: "Unstructured Video-Based Rendering: Interactive Exploration of Casually Captured Videos"
+  author: "Luca Ballan, Gabriel J. Brostow, Jens Puwein, Marc Pollefeys"
+  organisation: "ETH and UCL" 
+  url: "https://cvg.ethz.ch/research/unstructured-vbr/"
+  image: "/images/datasets/uvbr.jpg"  
   
