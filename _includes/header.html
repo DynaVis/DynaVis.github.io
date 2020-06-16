@@ -12,14 +12,18 @@
                     <li><a href="/2019/">CVPR 2019</a></li>
                	</ul>
             </li> 
-   
+            {% if site.youtube != null %}
+                <li style=" color: black;"><a href="{{site.youtube}}" class="icon circle fa-youtube-play"><span class="label">YouTube</span></a></li>
+            {% endif %}
             {% if site.twitter != null %}
                 <li style=" color: white;"><a href="https://twitter.com/{{site.twitter}}" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
             {% endif %}
-            
             {% if site.facebook != null %}
                 <li style=" color: white;"><a href="https://www.facebook.com/{{site.facebook}}" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
             {% endif %}
+            
+
+            
         </ul>
     </nav>
 </header>
