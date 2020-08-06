@@ -82,3 +82,10 @@
   url: "https://cvg.ethz.ch/research/unstructured-vbr/"
   image: "/images/datasets/uvbr.jpg"  
   
+  
+- name: "CAPE: Clothed Auto-Person Encoding"
+  author: "Qianli Ma, Jinlong Yang, Anurag Ranjan, Sergi Pujades, Gerard Pons-Moll, Siyu Tang, and Michael. J. Black"
+  organisation: "Max Planck Institute for Intelligent Systems, Université Grenoble Alpes, ETH Zürich, and Max Planck Institute for Informatics" 
+  url: "https://cape.is.tue.mpg.de/"
+  image: "/images/datasets/cape.jpg"
+  
