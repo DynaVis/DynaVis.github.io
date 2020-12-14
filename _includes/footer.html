@@ -2,12 +2,16 @@
 <footer id="footer">
 
     <ul class="icons">
+            {% if site.youtube != null %}
+                <li style="color:black;"><a href="{{site.youtube}}" class="icon circle fa-youtube-play"><span class="label"></span></a></li>
+            {% endif %}
+            
             {% if site.twitter != null %}
-                <li style=" color: white;"><a href="https://twitter.com/{{site.twitter}}" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+                <li style=" color: white;"><a href="https://twitter.com/{{site.twitter}}" class="icon circle fa-twitter"><span class="label"></span></a></li>
             {% endif %}
             
             {% if site.facebook != null %}
-                <li style=" color: white;"><a href="https://www.facebook.com/{{site.facebook}}" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+                <li style=" color: white;"><a href="https://www.facebook.com/{{site.facebook}}" class="icon circle fa-facebook"><span class="label"></span></a></li>
             {% endif %}
     </ul>
 
