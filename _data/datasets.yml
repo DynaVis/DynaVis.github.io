@@ -89,3 +89,16 @@
   url: "https://cape.is.tue.mpg.de/"
   image: "/images/datasets/cape.jpg"
   
+  
+- name: "Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths from a Monocular Camera"
+  author: "Jae Shin Yoon, Kihwan Kim, Orazio Gallo, Hyun Soo Park, and Jan Kautz"
+  organisation: "University of Minnesota and NVIDIA" 
+  url: "https://www-users.cs.umn.edu/~jsyoon/dynamic_synth/"
+  image: "/images/datasets/dynamic_synth.png"
+ 
+- name: "SIZER: A DATASET AND MODEL FOR PARSING 3D CLOTHING AND LEARNING SIZE SENSITIVE 3D CLOTHING"
+  author: "Garvita Tiwari, Bharat Lal Bhatnagar, Tony Tung, Gerard Pons-Moll"
+  organisation: " Max Planck Institute for Informatics and Facebook Reality Labs" 
+  url: "https://virtualhumans.mpi-inf.mpg.de/sizer/"
+  image: "/images/datasets/sizer.png"
+  
