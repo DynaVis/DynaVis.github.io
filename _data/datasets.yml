@@ -102,3 +102,9 @@
   url: "https://virtualhumans.mpi-inf.mpg.de/sizer/"
   image: "/images/datasets/sizer.png"
   
+- name: "DeepDeform"
+  author: "Aljaž Božič, Michael Zollhöfer, Christian Theobalt, Matthias Nießner"
+  organisation: "Technical University of Munich, Stanford University and Max Planck Institute for Informatics" 
+  url: "https://github.com/AljazBozic/DeepDeform"
+  image: "/images/datasets/deepdeform.png"
+  
